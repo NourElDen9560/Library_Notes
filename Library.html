@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" /> 
+    <link rel="stylesheet" href="css/hover.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+    />
+    <!-- font family -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/lib.css" />
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <title>Library</title>
+
+</head>
+<body>
+    <section class="Header">
+<div class="container">
+<div class="row">
+    <div class="offset-lg-5">
+        <h3>Hello To Your Library </h3>
+       <!-- Button trigger modal -->
+<button type="button" class="btn btn-danger add" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Add Book
+  </button>
+<h3 id="details">No Details Avaliable</h3>  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="form-control" onclick="">
+<label for="title">Title</label><br>
+<input placeholder="Title Of Book" type="text" id="title" class="form-control"required>
+<label for="author">Author</label><br>
+<input placeholder="Author Name :" type="text" id="author" class="form-control" required>
+<label for="pages">Num Of Pages</label><br>
+<input placeholder="Number Of Pages :" type="number" id="pages" class="form-control" required>
+
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="close">Close</button>
+          <button type="button" class="btn btn-primary"  data-bs-dismiss="modal" id="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+</div>
+</div>
+
+    </section>
+
+<section class="info">
+<div class="container">
+    <div class="row" id="InfoArea">
+       <!-- <div class="shadow p-3 mb-5   col-lg-4 text-center card_info">
+            <h3 >Title : Algorithm </h3>
+            <h5>Author : Nour El Den</h5>
+            <h6>Pages : 2</h6>
+<button class="btn btn-danger delete" >Delete</button>     
+        </div>
+-->
+
+
+    </div> <!--row-->
+
+
+    
+    <!--container-->
+</div>
+</section>
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/lib.js"></script>
+</body>
+</html>
